@@ -1,0 +1,28 @@
+@import "tailwindcss";
+body{
+  background-color: rgb(53, 48, 48);
+}
+.center-scroll-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full screen vertical centering */
+  width: 100vw;      /* Full width horizontal centering */
+  background: #222;  /* Optional for better contrast */
+}
+.scroll-wave {
+  display: inline-block;
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.scroll-wave:hover {
+  animation: scrollText 1.5s cubic-bezier(0.68,-0.55,0.27,1.55) 1;
+}
+
+@keyframes scrollText {
+  0% { transform: translateX(0); }
+  40% { transform: translateX(-100%); opacity: 0; }
+  41% { transform: translateX(100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
