@@ -30,7 +30,7 @@ View the app at:
 
 | Home Page | Movie Cards |
 |-----------|-------------|
-| ![Home Page](screenshots/home.png) | ![Movie Cards](screenshots/cards.png) |
+| ![Home Page](screenshots/2.jpg) | ![Movie Cards](screenshots/image.png) |
 
 Make sure you add actual screenshots to a `screenshots/` folder in your repository.
 
